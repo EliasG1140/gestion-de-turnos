@@ -1,0 +1,114 @@
+2022-04-24 01:19:54.562  INFO 48380 --- [restartedMain] p.i.ProyectoIntegradorFInalApplication   : Starting ProyectoIntegradorFInalApplication using Java 17.0.2 on DESKTOP-G2E3MT1 with PID 48380 (C:\Users\Zero\Desktop\DH\Integrador FInal\Backend\target\classes started by Zero in C:\Users\Zero\Desktop\DH\Integrador FInal\Backend)
+2022-04-24 01:19:54.564  INFO 48380 --- [restartedMain] p.i.ProyectoIntegradorFInalApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-04-24 01:19:54.630  INFO 48380 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-24 01:19:54.631  INFO 48380 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-24 01:19:55.599  INFO 48380 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-24 01:19:55.743  INFO 48380 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 133 ms. Found 6 JPA repository interfaces.
+2022-04-24 01:19:56.757  INFO 48380 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-24 01:19:56.771  INFO 48380 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-24 01:19:56.772  INFO 48380 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-04-24 01:19:56.937  INFO 48380 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-24 01:19:56.938  INFO 48380 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2306 ms
+2022-04-24 01:19:56.975  INFO 48380 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-24 01:19:57.219  INFO 48380 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-24 01:19:57.233  INFO 48380 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:f4ead69a-f8b2-4bc2-8a6e-5c72a3b2eaa3'
+2022-04-24 01:19:57.354  WARN 48380 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-24 01:19:57.483  INFO 48380 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-24 01:19:57.573  INFO 48380 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-04-24 01:19:57.802  INFO 48380 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-24 01:19:57.990  INFO 48380 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-24 01:19:58.958  INFO 48380 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-24 01:19:58.968  INFO 48380 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-24 01:19:59.958  INFO 48380 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-04-24 01:20:00.056  INFO 48380 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@776f4947, org.springframework.security.web.context.SecurityContextPersistenceFilter@41d798c1, org.springframework.security.web.header.HeaderWriterFilter@3211cfed, org.springframework.web.filter.CorsFilter@579b02b0, org.springframework.security.web.authentication.logout.LogoutFilter@1b2a1641, proyecto.integrador.security.jwt.JwtTokenFilter@2c18f3cb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5071a5d6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4a5fa47a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4e50cb37, org.springframework.security.web.session.SessionManagementFilter@6cb9e0c, org.springframework.security.web.access.ExceptionTranslationFilter@1cab6395, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@57947b9e]
+2022-04-24 01:20:00.354  INFO 48380 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-24 01:20:00.401  INFO 48380 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-24 01:20:00.412  INFO 48380 --- [restartedMain] p.i.ProyectoIntegradorFInalApplication   : Started ProyectoIntegradorFInalApplication in 6.338 seconds (JVM running for 7.103)
+2022-04-24 01:20:00.751  INFO 48380 --- [restartedMain] p.integrador.service.OdontologoService   : Odontologo creado correctamente
+2022-04-24 01:20:00.755  INFO 48380 --- [restartedMain] p.integrador.service.PacienteService     : Paciente creado correctamente
+2022-04-24 01:21:53.879  INFO 48380 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-24 01:21:53.880  INFO 48380 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-04-24 01:21:54.098  WARN 48380 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-24 01:21:54.099  INFO 48380 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-24 01:21:54.102  INFO 48380 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-24 01:22:00.596  INFO 4264 --- [restartedMain] p.i.ProyectoIntegradorFInalApplication   : Starting ProyectoIntegradorFInalApplication using Java 17.0.2 on DESKTOP-G2E3MT1 with PID 4264 (C:\Users\Zero\Desktop\DH\Integrador FInal\Backend\target\classes started by Zero in C:\Users\Zero\Desktop\DH\Integrador FInal\Backend)
+2022-04-24 01:22:00.597  INFO 4264 --- [restartedMain] p.i.ProyectoIntegradorFInalApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-04-24 01:22:00.663  INFO 4264 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-24 01:22:00.664  INFO 4264 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-24 01:22:01.646  INFO 4264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-24 01:22:01.788  INFO 4264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 130 ms. Found 6 JPA repository interfaces.
+2022-04-24 01:22:02.802  INFO 4264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-24 01:22:02.816  INFO 4264 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-24 01:22:02.818  INFO 4264 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-04-24 01:22:02.979  INFO 4264 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-24 01:22:02.979  INFO 4264 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2314 ms
+2022-04-24 01:22:03.019  INFO 4264 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-24 01:22:03.248  INFO 4264 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-24 01:22:03.261  INFO 4264 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:81fb6d09-5237-478b-a821-f27756c39ccf'
+2022-04-24 01:22:03.381  WARN 4264 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-24 01:22:03.516  INFO 4264 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-24 01:22:03.609  INFO 4264 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-04-24 01:22:03.819  INFO 4264 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-24 01:22:04.004  INFO 4264 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-24 01:22:04.970  INFO 4264 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-24 01:22:04.980  INFO 4264 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-24 01:22:05.946  INFO 4264 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-04-24 01:22:06.042  INFO 4264 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5432da1b, org.springframework.security.web.context.SecurityContextPersistenceFilter@3c20e88b, org.springframework.security.web.header.HeaderWriterFilter@78160bf7, org.springframework.web.filter.CorsFilter@25ba0a10, org.springframework.security.web.authentication.logout.LogoutFilter@187132f3, proyecto.integrador.security.jwt.JwtTokenFilter@16f97080, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@254ad6ed, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1dea291, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@17b12432, org.springframework.security.web.session.SessionManagementFilter@6830f94d, org.springframework.security.web.access.ExceptionTranslationFilter@3ccfbfce, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5c654410]
+2022-04-24 01:22:06.340  INFO 4264 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-24 01:22:06.390  INFO 4264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-24 01:22:06.401  INFO 4264 --- [restartedMain] p.i.ProyectoIntegradorFInalApplication   : Started ProyectoIntegradorFInalApplication in 6.288 seconds (JVM running for 7.05)
+2022-04-24 01:22:06.727  INFO 4264 --- [restartedMain] p.integrador.service.OdontologoService   : Odontologo creado correctamente
+2022-04-24 01:22:06.732  INFO 4264 --- [restartedMain] p.integrador.service.PacienteService     : Paciente creado correctamente
+2022-04-24 01:22:37.088  INFO 4264 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-24 01:22:37.089  INFO 4264 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-24 01:22:37.090  INFO 4264 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-24 01:22:40.352  INFO 4264 --- [http-nio-8080-exec-7] p.i.security.controller.AuthController   : Usuario: adminLogeandose
+2022-04-24 01:22:50.454  INFO 4264 --- [http-nio-8080-exec-10] p.integrador.service.OdontologoService   : Odontologo creado correctamente
+2022-04-24 01:23:10.383  INFO 4264 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-24 01:23:10.384  INFO 4264 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-04-24 01:23:10.604  WARN 4264 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-24 01:23:10.605  INFO 4264 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-24 01:23:10.608  INFO 4264 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-24 01:25:28.717  INFO 44628 --- [restartedMain] p.i.ProyectoIntegradorFInalApplication   : Starting ProyectoIntegradorFInalApplication using Java 17.0.2 on DESKTOP-G2E3MT1 with PID 44628 (C:\Users\Zero\Desktop\DH\Integrador FInal\Backend\target\classes started by Zero in C:\Users\Zero\Desktop\DH\Integrador FInal\Backend)
+2022-04-24 01:25:28.719  INFO 44628 --- [restartedMain] p.i.ProyectoIntegradorFInalApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-04-24 01:25:28.783  INFO 44628 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-24 01:25:28.783  INFO 44628 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-24 01:25:29.902  INFO 44628 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-24 01:25:30.048  INFO 44628 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 135 ms. Found 6 JPA repository interfaces.
+2022-04-24 01:25:31.110  INFO 44628 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-24 01:25:31.124  INFO 44628 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-24 01:25:31.125  INFO 44628 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-04-24 01:25:31.284  INFO 44628 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-24 01:25:31.285  INFO 44628 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2501 ms
+2022-04-24 01:25:31.322  INFO 44628 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-24 01:25:31.560  INFO 44628 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-24 01:25:31.573  INFO 44628 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:90452dc6-c64a-47f7-b574-070545970902'
+2022-04-24 01:25:31.699  WARN 44628 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-24 01:25:31.825  INFO 44628 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-24 01:25:31.909  INFO 44628 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-04-24 01:25:32.133  INFO 44628 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-24 01:25:32.327  INFO 44628 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-24 01:25:33.272  INFO 44628 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-24 01:25:33.283  INFO 44628 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-24 01:25:34.258  INFO 44628 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-04-24 01:25:34.361  INFO 44628 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5b73e9e3, org.springframework.security.web.context.SecurityContextPersistenceFilter@187132f3, org.springframework.security.web.header.HeaderWriterFilter@7a6b90cf, org.springframework.web.filter.CorsFilter@1010513, org.springframework.security.web.authentication.logout.LogoutFilter@61c489ef, proyecto.integrador.security.jwt.JwtTokenFilter@3132baf8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4f22cd9f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6b92310f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@378bd90b, org.springframework.security.web.session.SessionManagementFilter@2ecec227, org.springframework.security.web.access.ExceptionTranslationFilter@51f35df0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@748d8b89]
+2022-04-24 01:25:34.663  INFO 44628 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-24 01:25:34.714  INFO 44628 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-24 01:25:34.726  INFO 44628 --- [restartedMain] p.i.ProyectoIntegradorFInalApplication   : Started ProyectoIntegradorFInalApplication in 6.495 seconds (JVM running for 7.281)
+2022-04-24 01:25:35.071  INFO 44628 --- [restartedMain] p.integrador.service.OdontologoService   : Odontologo creado correctamente
+2022-04-24 01:25:35.075  INFO 44628 --- [restartedMain] p.integrador.service.PacienteService     : Paciente creado correctamente
+2022-04-24 01:25:55.004  INFO 44628 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-24 01:25:55.004  INFO 44628 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-24 01:25:55.006  INFO 44628 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-24 01:26:00.822  INFO 44628 --- [http-nio-8080-exec-1] p.i.security.controller.AuthController   : Usuario: adminLogeandose
+2022-04-24 01:26:08.478  INFO 44628 --- [http-nio-8080-exec-6] p.integrador.service.OdontologoService   : Odontologo creado correctamente
+2022-04-24 01:26:38.127  INFO 44628 --- [http-nio-8080-exec-9] p.i.security.controller.AuthController   : Usuario: eliasLogeandose
+2022-04-24 01:26:52.365 ERROR 44628 --- [http-nio-8080-exec-8] p.integrador.security.jwt.JwtEntryPoint  : Error en el método commence
+2022-04-24 01:27:31.799  INFO 44628 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-24 01:27:31.800  INFO 44628 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-04-24 01:27:32.029  WARN 44628 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-24 01:27:32.030  INFO 44628 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-24 01:27:32.032  INFO 44628 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
